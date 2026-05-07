@@ -27,7 +27,7 @@ jobs:
           python automate_NaylaFaizaGusvieA.py ../diabetes_prediction_dataset.csv
 
       - name: Upload preprocessed dataset
-        uses: actions/upload-artifact@v3
+        uses: actions/upload-artifact@v4
         with:
           name: diabetes-preprocessed
           path: preprocessing/diabetes_preprocessing/
